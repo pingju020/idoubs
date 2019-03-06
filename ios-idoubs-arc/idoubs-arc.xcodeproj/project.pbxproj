@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6A42399221BD2FB00A3B408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A42398221BD2FB00A3B408 /* AppDelegate.m */; };
+		C6A4239C221BD2FB00A3B408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A4239B221BD2FB00A3B408 /* ViewController.m */; };
+		C6A4239F221BD2FB00A3B408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A4239D221BD2FB00A3B408 /* Main.storyboard */; };
+		C6A423A1221BD2FE00A3B408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A423A0221BD2FE00A3B408 /* Assets.xcassets */; };
+		C6A423A4221BD2FE00A3B408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A423A2221BD2FE00A3B408 /* LaunchScreen.storyboard */; };
+		C6A423A7221BD2FE00A3B408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A423A6221BD2FE00A3B408 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6A42596221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A423B6221BD3B300A3B408;
+			remoteInfo = "ios-ngn-stack-arc";
+		};
+		C6A42598221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A423C6221BD57D00A3B408;
+			remoteInfo = tinyBFCP;
+		};
+		C6A4259A221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A423D3221BD5A000A3B408;
+			remoteInfo = tinySAK;
+		};
+		C6A4259C221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A423E0221BD5CA00A3B408;
+			remoteInfo = tinyNET;
+		};
+		C6A4259E221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A423ED221BDC1000A3B408;
+			remoteInfo = tinySDP;
+		};
+		C6A425A0221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A423FA221BDC2800A3B408;
+			remoteInfo = tinyRTP;
+		};
+		C6A425A2221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A42407221BDC7800A3B408;
+			remoteInfo = tinyIPSec;
+		};
+		C6A425A4221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A42414221BDCAE00A3B408;
+			remoteInfo = tinyMSRP;
+		};
+		C6A425A6221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A42421221BDCC300A3B408;
+			remoteInfo = tinyHTTP;
+		};
+		C6A425A8221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A4242E221BDCDD00A3B408;
+			remoteInfo = tinyMEDIA;
+		};
+		C6A425AA221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A4243B221BDCF400A3B408;
+			remoteInfo = tinySIGCOMP;
+		};
+		C6A425AC221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A42448221BDD0A00A3B408;
+			remoteInfo = tinySMS;
+		};
+		C6A425AE221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A42455221BDD2700A3B408;
+			remoteInfo = tinyXCAP;
+		};
+		C6A425B0221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A42462221BDD3E00A3B408;
+			remoteInfo = tinySIP;
+		};
+		C6A425B2221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A4246F221BDD5300A3B408;
+			remoteInfo = tinyDAV;
+		};
+		C6A425B4221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A4247C221BDD6800A3B408;
+			remoteInfo = tinyWRAP;
+		};
+		C6A425B6221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A424E4221BF7D600A3B408;
+			remoteInfo = testRegistration;
+		};
+		C6A425B8221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A424FE221BF80D00A3B408;
+			remoteInfo = testAudioCall;
+		};
+		C6A425BA221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A42518221BF83900A3B408;
+			remoteInfo = testVideoCall;
+		};
+		C6A425BC221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A42532221BF85900A3B408;
+			remoteInfo = testAudioUnit;
+		};
+		C6A425BE221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A4254C221BF87500A3B408;
+			remoteInfo = testMessaging;
+		};
+		C6A425C0221BFB1D00A3B408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A42566221BF89000A3B408;
+			remoteInfo = testPresence;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6A42394221BD2FB00A3B408 /* idoubs-arc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "idoubs-arc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A42397221BD2FB00A3B408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6A42398221BD2FB00A3B408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6A4239A221BD2FB00A3B408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6A4239B221BD2FB00A3B408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6A4239E221BD2FB00A3B408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6A423A0221BD2FE00A3B408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6A423A3221BD2FE00A3B408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6A423A5221BD2FE00A3B408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A423A6221BD2FE00A3B408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ios-ngn-stack-arc.xcodeproj"; path = "../ios-ngn-stack-arc/ios-ngn-stack-arc.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6A42391221BD2FB00A3B408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6A4238B221BD2FB00A3B408 = {
+			isa = PBXGroup;
+			children = (
+				C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */,
+				C6A42396221BD2FB00A3B408 /* idoubs-arc */,
+				C6A42395221BD2FB00A3B408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6A42395221BD2FB00A3B408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6A42394221BD2FB00A3B408 /* idoubs-arc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A42396221BD2FB00A3B408 /* idoubs-arc */ = {
+			isa = PBXGroup;
+			children = (
+				C6A42397221BD2FB00A3B408 /* AppDelegate.h */,
+				C6A42398221BD2FB00A3B408 /* AppDelegate.m */,
+				C6A4239A221BD2FB00A3B408 /* ViewController.h */,
+				C6A4239B221BD2FB00A3B408 /* ViewController.m */,
+				C6A4239D221BD2FB00A3B408 /* Main.storyboard */,
+				C6A423A0221BD2FE00A3B408 /* Assets.xcassets */,
+				C6A423A2221BD2FE00A3B408 /* LaunchScreen.storyboard */,
+				C6A423A5221BD2FE00A3B408 /* Info.plist */,
+				C6A423A6221BD2FE00A3B408 /* main.m */,
+			);
+			path = "idoubs-arc";
+			sourceTree = "<group>";
+		};
+		C6A4257D221BFB1D00A3B408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6A42597221BFB1D00A3B408 /* libios-ngn-stack-arc.a */,
+				C6A42599221BFB1D00A3B408 /* libtinyBFCP.a */,
+				C6A4259B221BFB1D00A3B408 /* libtinySAK.a */,
+				C6A4259D221BFB1D00A3B408 /* libtinyNET.a */,
+				C6A4259F221BFB1D00A3B408 /* libtinySDP.a */,
+				C6A425A1221BFB1D00A3B408 /* libtinyRTP.a */,
+				C6A425A3221BFB1D00A3B408 /* libtinyIPSec.a */,
+				C6A425A5221BFB1D00A3B408 /* libtinyMSRP.a */,
+				C6A425A7221BFB1D00A3B408 /* libtinyHTTP.a */,
+				C6A425A9221BFB1D00A3B408 /* libtinyMEDIA.a */,
+				C6A425AB221BFB1D00A3B408 /* libtinySIGCOMP.a */,
+				C6A425AD221BFB1D00A3B408 /* libtinySMS.a */,
+				C6A425AF221BFB1D00A3B408 /* libtinyXCAP.a */,
+				C6A425B1221BFB1D00A3B408 /* libtinySIP.a */,
+				C6A425B3221BFB1D00A3B408 /* libtinyDAV.a */,
+				C6A425B5221BFB1D00A3B408 /* libtinyWRAP.a */,
+				C6A425B7221BFB1D00A3B408 /* testRegistration.app */,
+				C6A425B9221BFB1D00A3B408 /* testAudioCall.app */,
+				C6A425BB221BFB1D00A3B408 /* testVideoCall.app */,
+				C6A425BD221BFB1D00A3B408 /* testAudioUnit.app */,
+				C6A425BF221BFB1D00A3B408 /* testMessaging.app */,
+				C6A425C1221BFB1D00A3B408 /* testPresence.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6A42393221BD2FB00A3B408 /* idoubs-arc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A423AA221BD2FE00A3B408 /* Build configuration list for PBXNativeTarget "idoubs-arc" */;
+			buildPhases = (
+				C6A42390221BD2FB00A3B408 /* Sources */,
+				C6A42391221BD2FB00A3B408 /* Frameworks */,
+				C6A42392221BD2FB00A3B408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "idoubs-arc";
+			productName = "idoubs-arc";
+			productReference = C6A42394221BD2FB00A3B408 /* idoubs-arc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6A4238C221BD2FB00A3B408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yangjuanping;
+				TargetAttributes = {
+					C6A42393221BD2FB00A3B408 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C6A4238F221BD2FB00A3B408 /* Build configuration list for PBXProject "idoubs-arc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6A4238B221BD2FB00A3B408;
+			productRefGroup = C6A42395221BD2FB00A3B408 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C6A4257D221BFB1D00A3B408 /* Products */;
+					ProjectRef = C6A4257C221BFB1D00A3B408 /* ios-ngn-stack-arc.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C6A42393221BD2FB00A3B408 /* idoubs-arc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C6A42597221BFB1D00A3B408 /* libios-ngn-stack-arc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libios-ngn-stack-arc.a";
+			remoteRef = C6A42596221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A42599221BFB1D00A3B408 /* libtinyBFCP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyBFCP.a;
+			remoteRef = C6A42598221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A4259B221BFB1D00A3B408 /* libtinySAK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySAK.a;
+			remoteRef = C6A4259A221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A4259D221BFB1D00A3B408 /* libtinyNET.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyNET.a;
+			remoteRef = C6A4259C221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A4259F221BFB1D00A3B408 /* libtinySDP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySDP.a;
+			remoteRef = C6A4259E221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425A1221BFB1D00A3B408 /* libtinyRTP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyRTP.a;
+			remoteRef = C6A425A0221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425A3221BFB1D00A3B408 /* libtinyIPSec.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyIPSec.a;
+			remoteRef = C6A425A2221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425A5221BFB1D00A3B408 /* libtinyMSRP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyMSRP.a;
+			remoteRef = C6A425A4221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425A7221BFB1D00A3B408 /* libtinyHTTP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyHTTP.a;
+			remoteRef = C6A425A6221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425A9221BFB1D00A3B408 /* libtinyMEDIA.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyMEDIA.a;
+			remoteRef = C6A425A8221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425AB221BFB1D00A3B408 /* libtinySIGCOMP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySIGCOMP.a;
+			remoteRef = C6A425AA221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425AD221BFB1D00A3B408 /* libtinySMS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySMS.a;
+			remoteRef = C6A425AC221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425AF221BFB1D00A3B408 /* libtinyXCAP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyXCAP.a;
+			remoteRef = C6A425AE221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425B1221BFB1D00A3B408 /* libtinySIP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySIP.a;
+			remoteRef = C6A425B0221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425B3221BFB1D00A3B408 /* libtinyDAV.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyDAV.a;
+			remoteRef = C6A425B2221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425B5221BFB1D00A3B408 /* libtinyWRAP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyWRAP.a;
+			remoteRef = C6A425B4221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425B7221BFB1D00A3B408 /* testRegistration.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testRegistration.app;
+			remoteRef = C6A425B6221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425B9221BFB1D00A3B408 /* testAudioCall.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testAudioCall.app;
+			remoteRef = C6A425B8221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425BB221BFB1D00A3B408 /* testVideoCall.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testVideoCall.app;
+			remoteRef = C6A425BA221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425BD221BFB1D00A3B408 /* testAudioUnit.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testAudioUnit.app;
+			remoteRef = C6A425BC221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425BF221BFB1D00A3B408 /* testMessaging.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testMessaging.app;
+			remoteRef = C6A425BE221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6A425C1221BFB1D00A3B408 /* testPresence.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testPresence.app;
+			remoteRef = C6A425C0221BFB1D00A3B408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6A42392221BD2FB00A3B408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A423A4221BD2FE00A3B408 /* LaunchScreen.storyboard in Resources */,
+				C6A423A1221BD2FE00A3B408 /* Assets.xcassets in Resources */,
+				C6A4239F221BD2FB00A3B408 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6A42390221BD2FB00A3B408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A4239C221BD2FB00A3B408 /* ViewController.m in Sources */,
+				C6A423A7221BD2FE00A3B408 /* main.m in Sources */,
+				C6A42399221BD2FB00A3B408 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6A4239D221BD2FB00A3B408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A4239E221BD2FB00A3B408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6A423A2221BD2FE00A3B408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A423A3221BD2FE00A3B408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6A423A8221BD2FE00A3B408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6A423A9221BD2FE00A3B408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6A423AB221BD2FE00A3B408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SR8TDR65N6;
+				INFOPLIST_FILE = "idoubs-arc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Juanping-Yang.idoubs-arc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6A423AC221BD2FE00A3B408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SR8TDR65N6;
+				INFOPLIST_FILE = "idoubs-arc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Juanping-Yang.idoubs-arc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6A4238F221BD2FB00A3B408 /* Build configuration list for PBXProject "idoubs-arc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A423A8221BD2FE00A3B408 /* Debug */,
+				C6A423A9221BD2FE00A3B408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A423AA221BD2FE00A3B408 /* Build configuration list for PBXNativeTarget "idoubs-arc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A423AB221BD2FE00A3B408 /* Debug */,
+				C6A423AC221BD2FE00A3B408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6A4238C221BD2FB00A3B408 /* Project object */;
+}
